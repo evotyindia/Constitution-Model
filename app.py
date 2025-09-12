@@ -14,7 +14,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # Upload Indian Constitution PDF once
-file_path = pathlib.Path("C:/Users/luthr/Downloads/Majour Project/20240716890312078.pdf")
+file_path = pathlib.Path("https://github.com/M-luthra07/Constitution-Model/blob/main/20240716890312078.pdf")
 if not file_path.exists():
     raise FileNotFoundError(f"PDF not found at {file_path}")
 
@@ -63,3 +63,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
