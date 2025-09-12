@@ -1,0 +1,206 @@
+/* ---------- Base & Utility ---------- */
+:root{
+  --saffron: #ff9933;
+  --white-bg: #ffffff;
+  --green: #138808;
+  --deep-blue: #0b3d91;
+  --muted: #707070;
+  --accent: #b36b00;
+  --paper: 230 220 198;
+  --max-width: 1100px;
+  --radius: 10px;
+  --glass: rgba(255,255,255,0.65);
+  --shadow: 0 8px 30px rgba(15,15,15,0.08);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family: "Lora", Georgia, serif;color:#222;background: linear-gradient(180deg, #f6f3ee 0%, #efe9dd 100%);}
+
+/* Add a faint parchment script texture using multiple overlays.
+   You can replace with a real image by setting .body::before background-image url(../images/parchment-texture.jpg) */
+
+body::before{
+  content:"";
+  position:fixed;inset:0;z-index:0;
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(0,0,0,0.02), transparent 15%),
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.02) 0 1px, transparent 1px 6px);
+  opacity:.6;
+  pointer-events:none;
+  mix-blend-mode:multiply;
+}
+
+/* ---------- HEADER ---------- */
+.container{max-width:var(--max-width);margin:0 auto;padding:0 20px}
+.skip-link{position:absolute;left:-999px;top:auto;z-index:999}
+.gov-header{
+  background: linear-gradient(90deg,var(--deep-blue), #08306b 80%);
+  color:white;
+  padding:18px 0;
+  box-shadow: 0 4px 12px rgba(5,10,25,0.2);
+  position:relative;
+  z-index:5;
+}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;gap:12px;align-items:center}
+.emblem{height:56px;border-radius:8px;background:white;padding:6px}
+.gov-title{font-family: "Merriweather", serif;margin:0;font-size:1.25rem}
+.gov-sub{margin:0;font-size:.9rem;color:var(--glass)}
+
+.main-nav ul{display:flex;gap:11px;list-style:none;padding:0;margin:0}
+.main-nav a{color:white;text-decoration:none;align-items: center;padding:8px 12px;border-radius:6px;font-weight:600;opacity:.95}
+.main-nav a:hover, .main-nav a:focus{background: rgba(255,255,255,0.08);outline:2px solid rgba(255,255,255,0.04)}
+
+/* Tricolor banner under header */
+.tricolor-banner{
+  height:8px;
+  width:100%;
+  background: linear-gradient(90deg, #ff9933 0 33.33%, #ffffff 33.33% 66.66%, #138808 66.66% 100%);
+  box-shadow: inset 0 -3px 8px rgba(0,0,0,0.05);
+  z-index:4;
+}
+
+/* ---------- HERO ---------- */
+.main-content{padding:30px 20px 100px;position:relative;z-index:2}
+.hero{display:flex;gap:30px;align-items:stretch}
+.hero-left{flex:1;min-width:280px}
+.hero-left h2{font-family: "Lora", serif;font-size:2rem;margin:6px 0 8px;color:var(--deep-blue)}
+.lead{color:var(--muted);font-size:1.05rem;max-width:620px}
+.features{list-style:disc;margin-left:18px;color:var(--muted);margin-top:12px}
+.hero-actions{margin-top:16px;display:flex;gap:12px;align-items:center}
+.btn-primary{background:var(--deep-blue);color:white;padding:10px 18px;border-radius:8px;border:none;cursor:pointer;box-shadow:var(--shadow);font-weight:700}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-secondary{background:transparent;padding:10px 18px;border-radius:8px;border:2px solid var(--deep-blue);color:var(--deep-blue);text-decoration:none;display:inline-flex;align-items:center}
+.btn-secondary:hover{background:rgba(11,61,145,0.04)}
+
+/* Hero right card — parchment feel */
+.hero-right{width:360px;display:flex;align-items:flex-start;justify-content:center}
+.card.parchment{
+  width:100%;
+  background: linear-gradient(180deg, rgba(var(--paper)/.9), rgba(255,255,255,0.9));
+  border-radius:12px;
+  padding:12px;
+  box-shadow:0 10px 30px rgba(20,20,20,0.08);
+  border:1px solid rgba(0,0,0,0.06);
+  font-family: "Georgia", serif;
+}
+.card-header{display:flex;justify-content:space-between;align-items:center;padding-bottom:2px;border-bottom:1px dashed rgba(0,0,0,0.06)}
+.card-body{padding-top:6px 0;color:#191818}
+.card-footer{font-size:.85rem;color:var(--muted);border-top:1px dashed rgba(0,0,0,0.04);padding-top:8px}
+
+/* ---------- CHAT ---------- */
+
+
+/* message bubbles */
+.message{display:inline-block;padding:10px 12px;border-radius:12px;margin:8px 0;max-width:78%}
+.user{background: linear-gradient(120deg, rgba(19,136,8,0.12), rgba(19,136,8,0.06));align-self:flex-end;border:1px solid rgba(19,136,8,0.12);font-weight:600}
+.bot{background: linear-gradient(120deg, rgba(11,61,145,0.06), rgba(11,61,145,0.02));align-self:flex-start;border:1px solid rgba(11,61,145,0.06)}
+
+/* chat input */
+.chat-form{display:flex;gap:10px;align-items:center;margin-top:6px}
+.chat-form input{flex:1;padding:12px;border-radius:8px;border:1px solid rgba(0,0,0,0.09);font-size:1rem}
+.small{padding:8px 12px;font-size:.95rem;border-radius:8px}
+.btn-ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--muted)}
+
+/* ---------- FOOTER ---------- */
+.gov-footer {
+  background: #002b6f;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  position: relative;  /* ✅ not absolute/fixed */
+  bottom: 0;
+  width: 100%;
+}
+ 
+/* ---------- Responsive ---------- */
+@media (max-width:900px){
+  .hero{flex-direction:column}
+  .hero-right{width:100%}
+  .main-nav{display:none}
+  .gov-title{font-size:1.05rem}
+}
+
+/* Accessibility helpers */
+.vis-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Chat Section */
+.chat-wrap {
+background: #fff;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+margin-top: 20px;
+}
+
+.chatbox {
+background: #f9f9f9;
+border: 1px solid #ddd;
+height: 250px;
+overflow-y: auto;
+padding: 10px;
+border-radius: 6px;
+margin-bottom: 12px;
+}
+
+/* Chat Form Row */
+.chat-form {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.chat-form input {
+flex: 1; /* take remaining space */
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+/* Buttons in Chat */
+.chat-form button {
+padding: 8px 14px;
+border-radius: 6px;
+border: none;
+cursor: pointer;
+}
+
+#micBtn {
+background: #f1f1f1;
+}
+
+#sendBtn {
+background: #0056b3;
+color: white;
+}
+
+#clearBtn {
+background: #f8f8f8;
+border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background: #0056b3;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}  

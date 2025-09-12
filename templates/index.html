@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Indian Constitution — Legal Help</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="description" content="Interactive Constitutional help — legal guidance based on the Indian Constitution."/>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="gov-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- ✅ Image reference fixed -->
+        <img src="https://e7.pngegg.com/pngimages/817/707/png-clipart-india-symbol-lion-capital-of-ashoka-state-emblem-of-india-national-symbols-of-india-national-emblem-india-emblem-carnivoran.png" alt="Emblem of India" class="emblem " />
+        <div>
+          <h1 class="gov-title">भारतीय संविधान — Indian Constitution</h1>
+          <p class="gov-sub">Legal Guidance & Public Information Portal</p>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">QUIZZES</a></li>
+          <li><a href="#">ARTICLES & ACTS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="tricolor-banner" aria-hidden="true">
+    <!-- purely decorative tricolor stripe -->
+  </div>
+
+  <main id="main" class="container main-content" role="main">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Welcome to the Constitution Helpdesk</h2>
+        <p class="lead">
+          Ask clear questions about the Constitution. This AI-assisted guide explains legal points in simple language and suggests practical next steps.
+        </p>
+        <ul class="features">
+          <li>Clear, plain-language explanations</li>
+          <li>Search the Constitution PDF</li>
+          <li>How to get legal help, step-by-step</li>
+        </ul>
+        <div class="hero-actions">
+          <button id="startChatBtn" class="btn-primary">Start Chat</button>
+          <a class="btn-secondary" href="#">Explore Constitution</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card parchment">
+          <div class="card-header">
+            <h2><strong>Education Center</strong></h2>
+            <small></small>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Fundamental Rights</li>
+              <li>Fundamental Duties</li>
+              <li>Premable</li>
+              <li>States & Union Territories</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <small>Last updated: 2025</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="chat-section" aria-label="Constitution Chat">
+      <h3>Chat with the Constitution Lawyer</h3>
+      <div class="chat-wrap">
+        <div id="chatbox" class="chatbox" aria-live="polite"></div>
+
+        <form id="chatForm" class="chat-form" onsubmit="return false;">
+          <label for="userInput" class="vis-hidden">Type your legal question</label>
+          <input id="userInput" type="text" placeholder="Type your legal question here..." autocomplete="off" />
+
+          <!-- 🎤 Speech-to-text button -->
+          <button id="micBtn" type="button" class="btn-ghost small">🎤</button>
+
+          <button id="sendBtn" class="btn-primary small">Send</button>
+          <button id="clearBtn" type="button" class="btn-ghost small">Clear</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="gov-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-left">
+        <p>© Government of India — Constitution Helpdesk</p>
+    </div>
+  </footer>
+
+   
+  <!-- ✅ JS reference fixed -->
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
