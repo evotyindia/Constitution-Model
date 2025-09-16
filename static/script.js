@@ -9,7 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function appendMessage(text, cls) {
       const elem = document.createElement("div");
       elem.className = `message ${cls}`;
-      elem.innerText = text;
+      if (cls === "bot" && text.startsWith("Lawyer:")) {
+        // Render lawyer responses as HTML
+        elem.innerHTML = text;
+      } else {
+        elem.innerText = text;
+      }
       // Accessibility: announce new messages
       elem.setAttribute("role", "article");
       chatbox.appendChild(elem);

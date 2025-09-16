@@ -76,7 +76,7 @@
     <section class="chat-section" aria-label="Constitution Chat">
       <h3>Chat with the Constitution Lawyer</h3>
       <div class="chat-wrap">
-        <div id="chatbox" class="chatbox" aria-live="polite"></div>
+  <div id="chatbox" class="chatbox" aria-live="polite">{{ reply|safe }}</div>
 
         <form id="chatForm" class="chat-form" onsubmit="return false;">
           <label for="userInput" class="vis-hidden">Type your legal question</label>

@@ -2,7 +2,8 @@ import os
 import pathlib
 from flask import Flask, render_template, request, jsonify
 from dotenv import load_dotenv
-import google.genai as genai
+import google.generativeai as genai
+import markdown
 
 # Load API key
 load_dotenv()
@@ -10,16 +11,17 @@ api_key = os.getenv("GOOGLE_API_KEY")
 if not api_key:
     raise ValueError("GOOGLE_API_KEY not found in .env file.")
 
-# Create GenAI client
-client = genai.Client(api_key=api_key)
+# Configure GenAI
+genai.configure(api_key=api_key)
 
-# Upload Indian Constitution PDF once
-file_path = pathlib.Path("https://github.com/M-luthra07/Constitution-Model/blob/main/20240716890312078.pdf")
+# Load Indian Constitution PDF from local path
+file_path = pathlib.Path("20240716890312078.pdf")
 if not file_path.exists():
     raise FileNotFoundError(f"PDF not found at {file_path}")
+print(f"📄 PDF loaded from {file_path}")
 
-sample_file = client.files.upload(file=file_path)
-print(f"📄 PDF uploaded with ID: {sample_file.name}")
+# Create model instance
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Initial system instruction
 system_prompt = (
@@ -27,7 +29,13 @@ system_prompt = (
     "You are speaking to a client who has little legal knowledge. "
     "Answer straight and don’t include unnecessary legal jargon. "
     "Explain answers in clear, simple language, while telling what steps to take. "
-    "Ask relevant questions to understand the user's needs better."
+    "Ask relevant questions to understand the user's needs better. "
+    "<br><br>"
+    "<strong>Please start your issue by answering these questions in bold:</strong><br>"
+    "<strong>What happened?</strong> (Who did what to whom, when, and where?)<br>"
+    "<strong>Why do you think it might be a constitutional issue?</strong> (What right do you believe was violated?)<br>"
+    "<strong>What do you hope to achieve?</strong> (What outcome are you looking for?)<br>"
+    "<strong>Have you already taken any steps to address this issue?</strong> (e.g., contacted anyone, filed a complaint)<br>"
 )
 
 # Flask app
@@ -47,15 +55,14 @@ def chat():
         return jsonify({"reply": "Please enter a valid question."})
 
     chat_history.append({"role": "user", "content": user_message})
-    conversation = [sample_file] + [m["content"] for m in chat_history]
+    conversation = [m["content"] for m in chat_history]
+
 
     reply_text = ""
-    for chunk in client.models.generate_content_stream(
-        model="gemini-2.5-flash",
-        contents=conversation
-    ):
-        if chunk.text:
-            reply_text += chunk.text
+    response = model.generate_content(conversation)
+    if hasattr(response, "text"):
+        # Convert Markdown to HTML for proper rendering
+        reply_text = markdown.markdown(response.text)
 
     chat_history.append({"role": "assistant", "content": reply_text})
 
