@@ -9,10 +9,16 @@ document.addEventListener("DOMContentLoaded", () => {
     function appendMessage(text, cls) {
       const elem = document.createElement("div");
       elem.className = `message ${cls}`;
-      if (cls === "bot" && text.startsWith("Lawyer:")) {
-        // Render lawyer responses as HTML
-        elem.innerHTML = text;
+      if (cls === "bot") {
+        // If the message contains block HTML tags, render as HTML
+        if (/<(p|ul|ol|li|br|h\d|div|table|blockquote)[^>]*>/i.test(text)) {
+          elem.innerHTML = text;
+        } else {
+          // Otherwise, replace newlines with <br> for display
+          elem.innerHTML = text.replace(/\n/g, '<br>');
+        }
       } else {
+        // Always use innerText for user messages to avoid HTML interpretation
         elem.innerText = text;
       }
       // Accessibility: announce new messages
@@ -20,6 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
       chatbox.appendChild(elem);
       chatbox.scrollTop = chatbox.scrollHeight;
     }
+
+    // Ensure only one welcome message is present
+    function showWelcome() {
+      chatbox.innerHTML = '';
+      appendMessage("Lawyer: <p>Welcome! I am your Constitution Lawyer AI. How can I help you today?</p>", "bot");
+    }
+
+    // Show welcome on load
+    showWelcome();
   
     async function sendMessage() {
       const text = input.value.trim();
@@ -55,14 +70,19 @@ document.addEventListener("DOMContentLoaded", () => {
       if (e.key === "Enter") sendMessage();
     });
   
-    clearBtn.addEventListener("click", () => {
+    clearBtn.addEventListener("click", async () => {
       chatbox.innerHTML = "";
       input.value = "";
+      // Tell backend to clear chat history
+      await fetch('/clear', { method: 'POST' });
+      showWelcome();
     });
   
     startBtn && startBtn.addEventListener("click", () => {
+      // Set placeholder and focus input, do not send message to bot
+      input.value = "hey lawyer!";
       input.focus();
-      appendMessage("Hello! Ask me anything about the Indian Constitution.", "bot");
+      input.setSelectionRange(input.value.length, input.value.length);
     });
   
   });

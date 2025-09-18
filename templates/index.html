@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Indian Constitution — Legal Help</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <meta name="description" content="Interactive Constitutional help — legal guidance based on the Indian Constitution."/>
 </head>
@@ -13,8 +14,7 @@
   <header class="gov-header" role="banner">
     <div class="container header-inner">
       <div class="brand">
-        <!-- ✅ Image reference fixed -->
-        <img src="https://e7.pngegg.com/pngimages/817/707/png-clipart-india-symbol-lion-capital-of-ashoka-state-emblem-of-india-national-symbols-of-india-national-emblem-india-emblem-carnivoran.png" alt="Emblem of India" class="emblem " />
+  <img src="{{ url_for('static', filename='logo.png') }}" alt="App Logo" class="emblem" />
         <div>
           <h1 class="gov-title">भारतीय संविधान — Indian Constitution</h1>
           <p class="gov-sub">Legal Guidance & Public Information Portal</p>
