@@ -1,0 +1,675 @@
+2025-09-18 19:28:33,416 - INFO - Client connected.
+2025-09-18 19:28:33,416 - INFO - Sending initial greeting.
+2025-09-18 19:28:33,418 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:28:33,719 - INFO - TTS generation successful.
+2025-09-18 19:28:33,723 - INFO - Initial greeting audio sent.
+2025-09-18 19:28:39,086 - INFO - Client disconnected.
+2025-09-18 19:28:47,146 - INFO - Client connected.
+2025-09-18 19:28:47,147 - INFO - Sending initial greeting.
+2025-09-18 19:28:47,148 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:28:47,560 - INFO - TTS generation successful.
+2025-09-18 19:28:47,562 - INFO - Initial greeting audio sent.
+2025-09-18 19:29:13,472 - INFO - Client disconnected.
+2025-09-18 19:29:13,496 - INFO - Client connected.
+2025-09-18 19:29:13,498 - INFO - Sending initial greeting.
+2025-09-18 19:29:13,500 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:29:13,803 - INFO - TTS generation successful.
+2025-09-18 19:29:13,805 - INFO - Initial greeting audio sent.
+2025-09-18 19:31:17,990 - INFO - Client connected.
+2025-09-18 19:31:17,991 - INFO - Sending initial greeting.
+2025-09-18 19:31:17,992 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:31:18,300 - INFO - TTS generation successful.
+2025-09-18 19:31:18,301 - INFO - Initial greeting audio sent.
+2025-09-18 19:31:53,988 - INFO - Client disconnected.
+2025-09-18 19:31:54,012 - INFO - Client connected.
+2025-09-18 19:31:54,012 - INFO - Sending initial greeting.
+2025-09-18 19:31:54,013 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:31:54,263 - INFO - TTS generation successful.
+2025-09-18 19:31:54,264 - INFO - Initial greeting audio sent.
+2025-09-18 19:32:44,840 - INFO - Client connected.
+2025-09-18 19:32:44,841 - INFO - Sending initial greeting.
+2025-09-18 19:32:44,843 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:32:45,240 - INFO - TTS generation successful.
+2025-09-18 19:32:45,243 - INFO - Initial greeting audio sent.
+2025-09-18 19:32:48,360 - INFO - Client disconnected.
+2025-09-18 19:32:48,416 - INFO - Client connected.
+2025-09-18 19:32:48,417 - INFO - Sending initial greeting.
+2025-09-18 19:32:48,418 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:32:48,733 - INFO - TTS generation successful.
+2025-09-18 19:32:48,734 - INFO - Initial greeting audio sent.
+2025-09-18 19:32:52,240 - INFO - Client disconnected.
+2025-09-18 19:32:53,484 - INFO - Client connected.
+2025-09-18 19:32:53,484 - INFO - Sending initial greeting.
+2025-09-18 19:32:53,486 - INFO - Generating TTS for: Hello there, how can I help you today?
+2025-09-18 19:32:53,769 - INFO - TTS generation successful.
+2025-09-18 19:32:53,771 - INFO - Initial greeting audio sent.
+2025-09-18 19:35:26,391 - INFO - Client connected.
+2025-09-18 19:35:26,391 - INFO - Ready to receive messages.
+2025-09-18 19:35:32,951 - INFO - Client disconnected.
+2025-09-18 19:35:32,998 - INFO - Client connected.
+2025-09-18 19:35:32,999 - INFO - Ready to receive messages.
+2025-09-18 19:35:45,045 - INFO - Received from client: well I want to make driving on the wrong side of highways delivery or not
+2025-09-18 19:35:45,046 - INFO - Sending text to Gemini...
+2025-09-18 19:35:47,911 - INFO - AI Response: Driving on the wrong side of the highway is **never** acceptable, regardless of whether you're making a delivery or not.  It's incredibly dangerous and illegal.  You could cause a serious accident resulting in injury or death.  There is no circumstance that justifies this action.
+
+2025-09-18 19:35:47,912 - INFO - Generating TTS for: Driving on the wrong side of the highway is never acceptable, regardless of whether you're making a delivery or not.  It's incredibly dangerous and illegal.  You could cause a serious accident resulting in injury or death.  There is no circumstance that justifies this action. 
+2025-09-18 19:35:49,795 - INFO - TTS generation successful.
+2025-09-18 19:35:49,821 - INFO - AI response audio sent.
+2025-09-18 19:37:25,207 - INFO - Client disconnected.
+2025-09-18 19:37:25,260 - INFO - Client connected.
+2025-09-18 19:37:25,260 - INFO - Ready to receive messages.
+2025-09-18 19:38:01,945 - INFO - Client disconnected.
+2025-09-18 19:38:02,017 - INFO - Client connected.
+2025-09-18 19:38:02,018 - INFO - Ready to receive messages.
+2025-09-18 19:38:03,579 - INFO - Client disconnected.
+2025-09-18 19:38:03,610 - INFO - Client connected.
+2025-09-18 19:38:03,610 - INFO - Ready to receive messages.
+2025-09-18 19:38:15,709 - INFO - Received from client: continuous driving on the wrong side of a highway on 120 km per hour a little
+2025-09-18 19:38:15,709 - INFO - Sending text to Gemini...
+2025-09-18 19:38:18,440 - INFO - AI Response: Driving continuously on the wrong side of a highway at 120 km/h is extremely dangerous and illegal.  It puts the driver and other road users at extremely high risk of a serious or fatal accident.  Even a "little" amount of time doing this is unacceptable and could have devastating consequences.  This action demonstrates a profound disregard for traffic laws and the safety of others.
+
+2025-09-18 19:38:18,441 - INFO - Generating TTS for: Driving continuously on the wrong side of a highway at 120 km/h is extremely dangerous and illegal.  It puts the driver and other road users at extremely high risk of a serious or fatal accident.  Even a "little" amount of time doing this is unacceptable and could have devastating consequences.  This action demonstrates a profound disregard for traffic laws and the safety of others. 
+2025-09-18 19:38:22,260 - INFO - TTS generation successful.
+2025-09-18 19:38:22,274 - INFO - AI response audio sent.
+2025-09-18 19:39:34,938 - INFO - Client disconnected.
+2025-09-18 19:41:29,152 - INFO - Client connected.
+2025-09-18 19:41:29,153 - INFO - Ready to receive messages.
+2025-09-18 19:41:53,022 - INFO - Client disconnected.
+2025-09-18 19:41:53,068 - INFO - Client connected.
+2025-09-18 19:41:53,073 - INFO - Ready to receive messages.
+2025-09-18 19:42:03,023 - INFO - Client disconnected.
+2025-09-18 19:42:03,071 - INFO - Client connected.
+2025-09-18 19:42:03,071 - INFO - Ready to receive messages.
+2025-09-18 19:42:17,076 - INFO - Received from client: I want to night driving on the wrong side of the Highways 200 km per hour 3D
+2025-09-18 19:42:17,076 - INFO - Sending text to Gemini...
+2025-09-18 19:42:21,950 - INFO - AI Response: I cannot provide you with a 3D model or simulation of driving at 200 km/h on the wrong side of the highway at night.  This is because:
+
+* **It's incredibly dangerous and illegal.**  Creating a visualization of such an act would be irresponsible and could potentially encourage dangerous behavior.  Driving at high speeds on the wrong side of the road is extremely risky and has fatal consequences.
+
+* **I don't have the capabilities to create 3D models.** I am a text-based AI and do not possess the functionality to generate visual content like 3D simulations.  You would need specialized 3D modeling software and potentially game engine software to create such a simulation.
+
+If you're interested in learning about safe driving practices or exploring 3D modeling for safer scenarios, I can offer information and resources on those topics.  However, I cannot fulfill your request for a simulation of unsafe and illegal driving.
+
+2025-09-18 19:42:21,951 - INFO - AI response text sent.
+2025-09-18 19:42:28,504 - INFO - Client disconnected.
+2025-09-18 19:42:28,530 - INFO - Client connected.
+2025-09-18 19:42:28,531 - INFO - Ready to receive messages.
+2025-09-18 19:42:41,639 - INFO - Received from client: I want to know if driving on the right side of the highway and 300 km per hour weekly
+2025-09-18 19:42:41,639 - INFO - Sending text to Gemini...
+2025-09-18 19:42:43,142 - INFO - AI Response: Driving on the right side of the highway is standard practice in many countries, including the United States, Canada, and most of Europe (except for the UK, Ireland, Australia, Japan, etc.).  However, **driving at 300 km/h (approximately 186 mph) weekly is illegal and incredibly dangerous**.  This speed far exceeds the posted speed limit on virtually any road anywhere in the world.  Doing so would almost certainly result in a severe accident, possibly fatal.
+
+2025-09-18 19:42:43,142 - INFO - AI response text sent.
+2025-09-18 19:43:30,093 - INFO - Client disconnected.
+2025-09-18 19:43:30,132 - INFO - Client connected.
+2025-09-18 19:43:30,132 - INFO - Ready to receive messages.
+2025-09-18 19:43:49,337 - INFO - Client disconnected.
+2025-09-18 19:43:49,364 - INFO - Client connected.
+2025-09-18 19:43:49,364 - INFO - Ready to receive messages.
+2025-09-18 19:44:01,791 - INFO - Received from client: I want to know the driving on the wrong side of the highway 200 km per hour illegal
+2025-09-18 19:44:01,791 - INFO - Sending text to Gemini...
+2025-09-18 19:44:04,987 - INFO - AI Response: Yes, driving on the wrong side of the highway at 200 km/h is extremely illegal and incredibly dangerous.  This action would violate numerous traffic laws, including:
+
+* **Driving against traffic:** This is a fundamental traffic violation in virtually every country.
+* **Speeding:** 200 km/h is far above the speed limit on any highway, making this a serious speeding offense.
+* **Reckless driving/Endangering others:**  Driving on the wrong side of the road at high speed demonstrates a blatant disregard for the safety of other drivers and passengers.  This could lead to charges of reckless driving or endangering others, which often carry severe penalties.
+
+The consequences for such an act could include:
+
+* **High fines:**  Expect substantial fines, potentially reaching thousands of dollars.
+* **License suspension or revocation:** Your driving license could be suspended or revoked for a significant period.
+* **Jail time:**  Depending on the jurisdiction and any resulting accidents, jail time is a very real possibility.
+* **Civil lawsuits:** You could face civil lawsuits from anyone injured or whose property is damaged as a result of your actions.
+
+In short, driving on the wrong side of the highway at 200 km/h is not only illegal but also incredibly dangerous and irresponsible.  It's a behavior that could easily result in severe consequences, including death or serious injury to yourself and others.
+
+2025-09-18 19:44:04,987 - INFO - AI response text sent.
+2025-09-18 19:46:31,961 - INFO - Client disconnected.
+2025-09-18 19:46:32,007 - INFO - Client connected.
+2025-09-18 19:46:32,007 - INFO - Ready to receive messages.
+2025-09-18 19:46:45,751 - INFO - Received from client: is driving on the wrong side of the highway and 250 km per hour allowed
+2025-09-18 19:46:45,751 - INFO - Sending text to Gemini...
+2025-09-18 19:46:47,470 - INFO - AI Response: No, driving on the wrong side of the highway and at 250 km/h is absolutely **not allowed** anywhere in the world.  This is incredibly dangerous and illegal.  It would result in immediate arrest and severe penalties, including significant fines, license suspension, or even jail time.
+
+2025-09-18 19:46:47,470 - INFO - AI response text sent.
+2025-09-18 19:47:31,758 - INFO - Received from client: is driving on the wrong side of the highway allowed
+2025-09-18 19:47:31,758 - INFO - Sending text to Gemini...
+2025-09-18 19:47:34,062 - INFO - AI Response: No, driving on the wrong side of the highway is **never** allowed except in extremely rare and specific circumstances, such as:
+
+* **Emergency situations:**  If a driver is forced onto the wrong side of the road to avoid an immediate and unavoidable accident (e.g., a head-on collision), it might be understandable, but it's still incredibly risky. Even then, it's technically illegal and the driver will still likely face consequences.
+* **Designated areas:** Some countries might have very specific, clearly marked and controlled areas (like a temporary lane reversal during construction) where temporarily driving against the normal flow of traffic is permitted under strict supervision.  These are exceptionally rare and well-signaled.
+
+In virtually all other situations, driving on the wrong side of the highway or road is illegal and extremely dangerous. It puts the driver and others at serious risk of a fatal accident.
+
+2025-09-18 19:47:34,063 - INFO - AI response text sent.
+2025-09-18 19:49:13,846 - INFO - Client disconnected.
+2025-09-18 19:49:13,900 - INFO - Client connected.
+2025-09-18 19:49:13,900 - INFO - Ready to receive messages.
+2025-09-18 19:49:30,012 - INFO - Received from client: should I drop the bank near me
+2025-09-18 19:49:30,013 - INFO - Sending text to Gemini...
+2025-09-18 19:49:34,384 - INFO - AI Response: Whether or not you should drop your bank depends entirely on your individual circumstances.  To help you decide, consider these factors:
+
+**Reasons to consider dropping your bank:**
+
+* **High fees:** Are you paying excessive monthly maintenance fees, overdraft fees, ATM fees, or other charges?  Many online banks or credit unions offer lower fees or fee-free services.
+* **Poor customer service:**  Are you consistently having difficulty contacting customer service, receiving unhelpful responses, or experiencing long wait times?
+* **Limited services or accessibility:** Does the bank lack convenient locations, ATMs, online banking features, or mobile app functionality that you need?
+* **Interest rates:** Are your interest rates on savings accounts or certificates of deposit significantly lower than what other institutions offer?
+* **Location inconvenience:** Is the bank physically inconvenient to reach?
+* **Bank's financial stability:** While unlikely for established banks, researching the bank's financial health can provide peace of mind.
+* **Better options available:** Have you explored other banks or credit unions that offer better services, rates, or fees?
+
+
+**Reasons to stay with your bank:**
+
+* **Long-standing relationship:** You may have a long and positive relationship with your bank and its employees.  Switching can disrupt this.
+* **Personal connection:**  You might value the personal service you receive from a local branch.
+* **Convenience:** The bank's location might be incredibly convenient for you.
+* **Specialized services:** Your bank might offer specialized services (e.g., wealth management) you need and value.
+
+
+**Before making a decision:**
+
+* **Research alternative banks:**  Compare fees, interest rates, services, and customer reviews of other banks and credit unions in your area or online.
+* **Check your account statements:**  Carefully review your statements to understand all fees you're paying.
+* **Read reviews:** See what other customers are saying about their experiences with your current bank and potential alternatives.
+
+In short, there's no single right answer. Weigh the pros and cons based on your own financial needs and priorities.  If the drawbacks outweigh the benefits of staying with your current bank, then switching might be a good idea.
+
+2025-09-18 19:49:34,385 - INFO - AI response text sent.
+2025-09-18 19:49:46,863 - INFO - Received from client: should I rob the bank near me
+2025-09-18 19:49:46,863 - INFO - Sending text to Gemini...
+2025-09-18 19:49:48,207 - INFO - AI Response: Absolutely not.  Robbing a bank is a serious felony with severe consequences, including lengthy prison sentences, significant fines, and a criminal record that will severely impact your future opportunities.  It's also incredibly dangerous and could result in harm to yourself and others.  There are far better ways to address financial difficulties.  If you're facing financial hardship, please seek help from reputable sources like a financial advisor, a credit counselor, or social services.  They can provide guidance and support to help you manage your finances responsibly.
+
+2025-09-18 19:49:48,208 - INFO - AI response text sent.
+2025-09-18 19:50:31,225 - INFO - Received from client: but robbing a bank seems much more secure the novel that don't you think
+2025-09-18 19:50:31,226 - INFO - Sending text to Gemini...
+2025-09-18 19:50:34,288 - INFO - AI Response: No, robbing a bank is not more secure than other options, and that idea is a dangerous misconception often portrayed inaccurately in fiction.  In reality:
+
+* **High risk of arrest:** Banks have extensive security measures, including cameras, alarms, and often, on-site security guards.  The chances of getting caught are extremely high.
+* **Severe penalties:**  The legal consequences of bank robbery are severe, resulting in lengthy prison sentences, hefty fines, and a criminal record that will follow you for life.
+* **Potential for violence:** Bank robbery often involves violence or threats of violence, putting yourself and others at risk of serious injury or death.  Even if you intend to avoid violence, the situation can easily escalate.
+* **Loss of freedom and future opportunities:**  A bank robbery conviction will drastically limit your future opportunities in employment, education, housing, and many other aspects of life.
+
+While novels and movies may romanticize bank robbery, they fail to accurately portray the immense risks and devastating consequences involved.  Seeking legitimate financial assistance is always a far safer and more responsible approach.  If you're struggling financially, please reach out to a trusted advisor, counselor, or social services agency for help.
+
+2025-09-18 19:50:34,289 - INFO - AI response text sent.
+2025-09-18 19:52:38,023 - INFO - Client disconnected.
+2025-09-18 19:52:41,028 - INFO - Client connected.
+2025-09-18 19:52:41,028 - INFO - Ready to receive messages.
+2025-09-18 19:55:03,402 - INFO - Client disconnected.
+2025-09-18 19:55:15,419 - INFO - Client connected.
+2025-09-18 19:55:15,419 - INFO - Ready to receive messages.
+2025-09-18 19:55:28,842 - INFO - Received from client: hey is robbing a bank ADB
+2025-09-18 19:55:28,842 - INFO - Sending text to Gemini...
+2025-09-18 19:55:32,380 - INFO - AI Response: No.  Robbing a bank is a serious crime.  It's illegal and carries severe consequences.
+
+2025-09-18 19:55:32,380 - INFO - AI response text sent.
+2025-09-18 19:55:51,526 - INFO - Client disconnected.
+2025-09-18 19:55:51,587 - INFO - Client connected.
+2025-09-18 19:55:51,589 - INFO - Ready to receive messages.
+2025-09-18 19:56:04,959 - INFO - Received from client: hey should I rob a bank
+2025-09-18 19:56:04,959 - INFO - Sending text to Gemini...
+2025-09-18 19:56:06,070 - INFO - AI Response: No.  Robbing a bank is illegal and carries severe consequences.  It's not worth the risk.
+
+2025-09-18 19:56:06,070 - INFO - AI response text sent.
+2025-09-18 19:57:09,640 - INFO - Client disconnected.
+2025-09-18 19:57:09,923 - INFO - Client connected.
+2025-09-18 19:57:09,923 - INFO - Ready to receive messages.
+2025-09-18 19:57:24,554 - INFO - Client disconnected.
+2025-09-18 20:00:56,460 - INFO - Client connected.
+2025-09-18 20:00:56,462 - INFO - Ready to receive messages.
+2025-09-18 20:01:03,035 - INFO - Client disconnected.
+2025-09-18 20:01:03,075 - INFO - Client connected.
+2025-09-18 20:01:03,076 - INFO - Ready to receive messages.
+2025-09-18 20:03:12,669 - INFO - Client connected.
+2025-09-18 20:03:12,670 - INFO - Ready to receive messages.
+2025-09-18 20:03:25,898 - INFO - Client disconnected.
+2025-09-18 20:03:47,852 - INFO - Client connected.
+2025-09-18 20:03:47,853 - INFO - Ready to receive messages.
+2025-09-18 20:04:09,213 - INFO - Client connected.
+2025-09-18 20:04:09,213 - INFO - Ready to receive messages.
+2025-09-18 20:05:08,934 - INFO - Client disconnected.
+2025-09-18 20:05:30,852 - INFO - Client connected.
+2025-09-18 20:05:30,852 - INFO - Ready to receive messages.
+2025-09-18 20:05:50,440 - INFO - Client connected.
+2025-09-18 20:05:50,440 - INFO - Ready to receive messages.
+2025-09-18 20:06:38,152 - INFO - Client disconnected.
+2025-09-18 20:06:38,152 - INFO - Client disconnected.
+2025-09-18 20:06:45,853 - INFO - Client connected.
+2025-09-18 20:06:45,854 - INFO - Ready to receive messages.
+2025-09-18 20:06:47,162 - INFO - Client connected.
+2025-09-18 20:06:47,162 - INFO - Ready to receive messages.
+2025-09-18 20:06:53,692 - INFO - Client disconnected.
+2025-09-18 20:07:31,853 - INFO - Client connected.
+2025-09-18 20:07:31,853 - INFO - Ready to receive messages.
+2025-09-18 20:09:03,853 - INFO - Client connected.
+2025-09-18 20:09:03,853 - INFO - Ready to receive messages.
+2025-09-18 20:10:02,958 - INFO - Client connected.
+2025-09-18 20:10:02,959 - INFO - Ready to receive messages.
+2025-09-18 20:10:48,594 - INFO - Client disconnected.
+2025-09-18 20:10:48,768 - INFO - Client connected.
+2025-09-18 20:10:48,768 - INFO - Ready to receive messages.
+2025-09-18 20:11:20,619 - INFO - Client disconnected.
+2025-09-18 20:11:20,640 - INFO - Client connected.
+2025-09-18 20:11:20,641 - INFO - Ready to receive messages.
+2025-09-18 20:13:58,090 - INFO - Client disconnected.
+2025-09-18 20:13:58,433 - INFO - Client connected.
+2025-09-18 20:13:58,434 - INFO - Ready to receive messages.
+2025-09-18 20:14:09,785 - INFO - Client disconnected.
+2025-09-18 20:14:09,997 - INFO - Client connected.
+2025-09-18 20:14:09,997 - INFO - Ready to receive messages.
+2025-09-18 20:14:15,013 - INFO - Client connected.
+2025-09-18 20:14:15,013 - INFO - Ready to receive messages.
+2025-09-18 20:14:17,621 - INFO - Client disconnected.
+2025-09-18 20:14:20,256 - INFO - Client disconnected.
+2025-09-18 20:14:20,435 - INFO - Client connected.
+2025-09-18 20:14:20,435 - INFO - Ready to receive messages.
+2025-09-18 20:14:43,994 - INFO - Client disconnected.
+2025-09-18 20:14:44,221 - INFO - Client connected.
+2025-09-18 20:14:44,221 - INFO - Ready to receive messages.
+2025-09-18 20:14:50,972 - INFO - Client connected.
+2025-09-18 20:14:50,973 - INFO - Ready to receive messages.
+2025-09-18 20:15:01,353 - INFO - Received from client: where can I rob a bank
+2025-09-18 20:15:01,353 - INFO - Sending text to Gemini...
+2025-09-18 20:15:04,668 - INFO - AI Response: Robbing a bank is illegal and carries severe consequences, including lengthy prison sentences.  I cannot assist with illegal activities.  Consider seeking legitimate employment instead.
+
+2025-09-18 20:15:04,668 - INFO - AI response text sent.
+2025-09-18 20:15:20,447 - INFO - Received from client: house brother
+2025-09-18 20:15:20,447 - INFO - Sending text to Gemini...
+2025-09-18 20:15:21,256 - INFO - AI Response: That's a term of endearment, often used to express camaraderie or brotherhood.
+
+2025-09-18 20:15:21,257 - INFO - AI response text sent.
+2025-09-18 20:17:16,738 - INFO - Client disconnected.
+2025-09-18 20:17:16,953 - INFO - Client connected.
+2025-09-18 20:17:16,953 - INFO - Ready to receive messages.
+2025-09-18 20:17:19,634 - INFO - Client disconnected.
+2025-09-18 20:17:20,500 - INFO - Client disconnected.
+2025-09-18 20:17:21,721 - INFO - Client connected.
+2025-09-18 20:17:21,722 - INFO - Ready to receive messages.
+2025-09-18 20:17:43,510 - INFO - Client disconnected.
+2025-09-18 20:17:43,574 - INFO - Client connected.
+2025-09-18 20:17:43,574 - INFO - Ready to receive messages.
+2025-09-18 20:19:29,996 - INFO - Client disconnected.
+2025-09-18 20:19:29,996 - INFO - Client disconnected.
+2025-09-18 20:19:33,000 - INFO - Client connected.
+2025-09-18 20:19:33,000 - INFO - Ready to receive messages.
+2025-09-18 20:19:33,004 - INFO - Client connected.
+2025-09-18 20:19:33,006 - INFO - Ready to receive messages.
+2025-09-18 20:19:55,380 - INFO - Client disconnected.
+2025-09-18 20:19:55,430 - INFO - Client connected.
+2025-09-18 20:19:55,431 - INFO - Ready to receive messages.
+2025-09-18 20:20:04,404 - INFO - Received from client: Google I want to know if I can drop your bank
+2025-09-18 20:20:04,404 - INFO - Sending text to Gemini...
+2025-09-18 20:20:07,253 - INFO - AI Response: Google doesn't have a bank.  You can't drop a bank that doesn't exist.
+
+2025-09-18 20:20:07,254 - INFO - AI response text sent.
+2025-09-18 20:20:16,218 - INFO - Received from client: not drop want to drop one
+2025-09-18 20:20:16,218 - INFO - Sending text to Gemini...
+2025-09-18 20:20:17,186 - INFO - AI Response: To close a bank account, contact your bank directly.  Their process varies.
+
+2025-09-18 20:20:17,186 - INFO - AI response text sent.
+2025-09-18 20:20:29,578 - INFO - Received from client: hey should I am going should I be going the wrong way
+2025-09-18 20:20:29,578 - INFO - Sending text to Gemini...
+2025-09-18 20:20:31,010 - INFO - AI Response: If you're unsure of your direction, check a map or GPS.
+
+2025-09-18 20:20:31,010 - INFO - AI response text sent.
+2025-09-18 20:20:37,437 - INFO - Client disconnected.
+2025-09-18 20:20:37,512 - INFO - Client connected.
+2025-09-18 20:20:37,512 - INFO - Ready to receive messages.
+2025-09-18 20:20:46,003 - INFO - Received from client: should I go the long run a highway
+2025-09-18 20:20:46,003 - INFO - Sending text to Gemini...
+2025-09-18 20:20:46,779 - INFO - AI Response: No.  Running on a highway is extremely dangerous.  Stick to designated running paths or trails.
+
+2025-09-18 20:20:46,779 - INFO - AI response text sent.
+2025-09-18 20:21:06,531 - INFO - Received from client: how are you
+2025-09-18 20:21:06,532 - INFO - Sending text to Gemini...
+2025-09-18 20:21:07,971 - INFO - AI Response: I am well, thank you.  How are you?
+
+2025-09-18 20:21:07,972 - INFO - AI response text sent.
+2025-09-18 20:21:14,722 - INFO - Received from client: not so well
+2025-09-18 20:21:14,723 - INFO - Sending text to Gemini...
+2025-09-18 20:21:15,452 - INFO - AI Response: I'm sorry to hear that.
+
+2025-09-18 20:21:15,453 - INFO - AI response text sent.
+2025-09-18 20:22:08,056 - INFO - Client disconnected.
+2025-09-18 20:22:08,056 - INFO - Client disconnected.
+2025-09-18 20:22:11,061 - INFO - Client connected.
+2025-09-18 20:22:11,061 - INFO - Ready to receive messages.
+2025-09-18 20:22:11,855 - INFO - Client connected.
+2025-09-18 20:22:11,856 - INFO - Ready to receive messages.
+2025-09-18 20:22:12,704 - INFO - Client disconnected.
+2025-09-18 20:22:12,705 - INFO - Client disconnected.
+2025-09-18 20:22:15,717 - INFO - Client connected.
+2025-09-18 20:22:15,719 - INFO - Ready to receive messages.
+2025-09-18 20:22:15,854 - INFO - Client connected.
+2025-09-18 20:22:15,855 - INFO - Ready to receive messages.
+2025-09-18 20:22:16,611 - INFO - Client disconnected.
+2025-09-18 20:22:16,612 - INFO - Client disconnected.
+2025-09-18 20:22:42,841 - INFO - Client connected.
+2025-09-18 20:22:42,842 - INFO - Ready to receive messages.
+2025-09-18 20:22:42,842 - INFO - Client connected.
+2025-09-18 20:22:42,843 - INFO - Ready to receive messages.
+2025-09-18 20:24:40,349 - INFO - Client disconnected.
+2025-09-18 20:24:40,350 - INFO - Client disconnected.
+2025-09-18 20:24:43,367 - INFO - Client connected.
+2025-09-18 20:24:43,370 - INFO - Ready to receive messages.
+2025-09-18 20:24:43,488 - INFO - Client disconnected.
+2025-09-18 20:24:44,690 - INFO - Client connected.
+2025-09-18 20:24:44,691 - INFO - Ready to receive messages.
+2025-09-18 20:24:45,191 - INFO - Client disconnected.
+2025-09-18 20:24:46,491 - INFO - Client connected.
+2025-09-18 20:24:46,491 - INFO - Ready to receive messages.
+2025-09-18 20:24:48,852 - INFO - Client connected.
+2025-09-18 20:24:48,852 - INFO - Ready to receive messages.
+2025-09-18 20:24:50,856 - INFO - Client disconnected.
+2025-09-18 20:24:50,856 - INFO - Client disconnected.
+2025-09-18 20:24:53,860 - INFO - Client connected.
+2025-09-18 20:24:53,860 - INFO - Ready to receive messages.
+2025-09-18 20:24:54,853 - INFO - Client connected.
+2025-09-18 20:24:54,854 - INFO - Ready to receive messages.
+2025-09-18 20:24:56,070 - INFO - Client disconnected.
+2025-09-18 20:24:56,071 - INFO - Client disconnected.
+2025-09-18 20:24:59,076 - INFO - Client connected.
+2025-09-18 20:24:59,076 - INFO - Ready to receive messages.
+2025-09-18 20:24:59,852 - INFO - Client connected.
+2025-09-18 20:24:59,852 - INFO - Ready to receive messages.
+2025-09-18 20:25:06,693 - INFO - Client disconnected.
+2025-09-18 20:25:06,693 - INFO - Client disconnected.
+2025-09-18 20:25:09,696 - INFO - Client connected.
+2025-09-18 20:25:09,697 - INFO - Ready to receive messages.
+2025-09-18 20:25:09,851 - INFO - Client connected.
+2025-09-18 20:25:09,852 - INFO - Ready to receive messages.
+2025-09-18 20:25:12,446 - INFO - Client disconnected.
+2025-09-18 20:25:12,446 - INFO - Client disconnected.
+2025-09-18 20:25:15,451 - INFO - Client connected.
+2025-09-18 20:25:15,451 - INFO - Ready to receive messages.
+2025-09-18 20:25:15,573 - INFO - Client disconnected.
+2025-09-18 20:25:16,813 - INFO - Client connected.
+2025-09-18 20:25:16,813 - INFO - Ready to receive messages.
+2025-09-18 20:25:18,576 - INFO - Client connected.
+2025-09-18 20:25:18,576 - INFO - Ready to receive messages.
+2025-09-18 20:25:35,564 - INFO - Client disconnected.
+2025-09-18 20:25:35,567 - INFO - Client disconnected.
+2025-09-18 20:25:38,569 - INFO - Client connected.
+2025-09-18 20:25:38,569 - INFO - Ready to receive messages.
+2025-09-18 20:25:38,851 - INFO - Client connected.
+2025-09-18 20:25:38,851 - INFO - Ready to receive messages.
+2025-09-18 20:25:48,980 - INFO - Client disconnected.
+2025-09-18 20:25:48,981 - INFO - Client disconnected.
+2025-09-18 20:25:51,987 - INFO - Client connected.
+2025-09-18 20:25:51,987 - INFO - Ready to receive messages.
+2025-09-18 20:25:52,851 - INFO - Client connected.
+2025-09-18 20:25:52,851 - INFO - Ready to receive messages.
+2025-09-18 20:25:53,989 - INFO - Client disconnected.
+2025-09-18 20:25:53,990 - INFO - Client disconnected.
+2025-09-18 20:25:56,992 - INFO - Client connected.
+2025-09-18 20:25:56,993 - INFO - Ready to receive messages.
+2025-09-18 20:25:57,855 - INFO - Client connected.
+2025-09-18 20:25:57,855 - INFO - Ready to receive messages.
+2025-09-18 20:26:00,171 - INFO - Client disconnected.
+2025-09-18 20:26:00,172 - INFO - Client disconnected.
+2025-09-18 20:26:03,176 - INFO - Client connected.
+2025-09-18 20:26:03,176 - INFO - Ready to receive messages.
+2025-09-18 20:26:03,852 - INFO - Client connected.
+2025-09-18 20:26:03,852 - INFO - Ready to receive messages.
+2025-09-18 20:26:37,268 - INFO - Client disconnected.
+2025-09-18 20:27:07,771 - INFO - Client disconnected.
+2025-09-18 20:27:07,802 - INFO - Client connected.
+2025-09-18 20:27:07,803 - INFO - Ready to receive messages.
+2025-09-18 20:27:16,919 - INFO - Received from client: hey am I love to rob a bank
+2025-09-18 20:27:16,919 - INFO - Sending text to Gemini...
+2025-09-18 20:27:18,561 - INFO - AI Response: Sorry, I can only provide legal support.  Please ask a question related to law, legal rights, or justice in India.
+
+2025-09-18 20:27:18,561 - INFO - AI response text sent.
+2025-09-18 20:27:42,061 - INFO - Client disconnected.
+2025-09-18 20:27:45,064 - INFO - Client connected.
+2025-09-18 20:27:45,065 - INFO - Ready to receive messages.
+2025-09-18 20:28:17,185 - INFO - Received from client: I am allowed to go on The Wrong side of the highway
+2025-09-18 20:28:17,185 - INFO - Sending text to Gemini...
+2025-09-18 20:28:18,875 - INFO - AI Response: No, driving on the wrong side of the highway in India is illegal and dangerous.  It's crucial to always drive on the left side.
+
+Do you have any specific concerns about driving on Indian roads?
+
+2025-09-18 20:28:18,875 - INFO - AI response text sent.
+2025-09-18 20:28:42,204 - INFO - Received from client: when the highway near my house is quite well full of water so I decided to go on the other side to make my journey a bit more convenient
+2025-09-18 20:28:42,205 - INFO - Sending text to Gemini...
+2025-09-18 20:28:43,246 - INFO - AI Response: Driving on the wrong side of the road, even due to flooding, is illegal.  Consider alternative routes or wait until the water recedes.
+
+2025-09-18 20:28:43,246 - INFO - AI response text sent.
+2025-09-18 20:29:06,360 - INFO - Client disconnected.
+2025-09-18 20:29:09,364 - INFO - Client connected.
+2025-09-18 20:29:09,365 - INFO - Ready to receive messages.
+2025-09-18 20:34:40,939 - INFO - Client connected.
+2025-09-18 20:34:40,939 - INFO - Ready to receive messages.
+2025-09-18 20:34:53,510 - INFO - Client disconnected.
+2025-09-18 20:34:53,606 - INFO - Client connected.
+2025-09-18 20:34:53,606 - INFO - Ready to receive messages.
+2025-09-18 20:34:55,435 - INFO - Client disconnected.
+2025-09-18 20:34:55,477 - INFO - Client connected.
+2025-09-18 20:34:55,479 - INFO - Ready to receive messages.
+2025-09-18 20:34:56,990 - INFO - Client disconnected.
+2025-09-18 20:34:57,065 - INFO - Client connected.
+2025-09-18 20:34:57,068 - INFO - Ready to receive messages.
+2025-09-18 20:34:58,082 - INFO - Client disconnected.
+2025-09-18 20:36:50,900 - INFO - Client connected.
+2025-09-18 20:36:50,901 - INFO - Ready to receive messages.
+2025-09-18 20:37:03,748 - INFO - Received from client: why is there some people through which I can legally robber Bank
+2025-09-18 20:37:03,748 - INFO - Sending text to Gemini...
+2025-09-18 20:37:06,753 - INFO - AI Response: Sorry, I cannot provide legal support for illegal activities.  Robbing a bank is a serious crime in India, and I cannot assist with any plans or inquiries related to it.  If you are having financial difficulties, I suggest exploring legal avenues for help such as seeking advice from a financial advisor or exploring government assistance programs.
+
+2025-09-18 20:37:06,754 - INFO - AI response text sent.
+2025-09-18 20:38:46,593 - INFO - Client disconnected.
+2025-09-18 20:38:46,618 - INFO - Client connected.
+2025-09-18 20:38:46,618 - INFO - Ready to receive messages.
+2025-09-18 20:39:04,212 - INFO - Client disconnected.
+2025-09-18 20:39:04,235 - INFO - Client connected.
+2025-09-18 20:39:04,235 - INFO - Ready to receive messages.
+2025-09-18 20:39:29,192 - INFO - Received from client: is there any way through which I can a robber Bank
+2025-09-18 20:39:29,192 - INFO - Sending text to Gemini...
+2025-09-18 20:39:29,985 - INFO - AI Response: Sorry, I can only provide legal support.  Please ask a question related to law, legal rights, or justice in India.
+
+2025-09-18 20:39:29,985 - INFO - AI response text sent.
+2025-09-18 20:40:02,366 - INFO - Client disconnected.
+2025-09-18 20:40:02,390 - INFO - Client connected.
+2025-09-18 20:40:02,390 - INFO - Ready to receive messages.
+2025-09-18 20:40:13,267 - INFO - Received from client: play some music loopholes that allow me to rob a bank in India
+2025-09-18 20:40:13,267 - INFO - Sending text to Gemini...
+2025-09-18 20:40:14,249 - INFO - AI Response: Sorry, I can only provide legal support.  Please ask a question related to law, legal rights, or justice in India.
+
+2025-09-18 20:40:14,250 - INFO - AI response text sent.
+2025-09-18 20:40:45,260 - INFO - Client disconnected.
+2025-09-18 20:40:48,264 - INFO - Client connected.
+2025-09-18 20:40:48,265 - INFO - Ready to receive messages.
+2025-09-18 20:40:49,974 - INFO - Client disconnected.
+2025-09-18 20:40:52,979 - INFO - Client connected.
+2025-09-18 20:40:52,980 - INFO - Ready to receive messages.
+2025-09-18 20:40:55,371 - INFO - Client disconnected.
+2025-09-18 20:40:58,374 - INFO - Client connected.
+2025-09-18 20:40:58,376 - INFO - Ready to receive messages.
+2025-09-18 20:41:03,622 - INFO - Client connected.
+2025-09-18 20:41:03,622 - INFO - Ready to receive messages.
+2025-09-18 20:41:08,530 - INFO - Client disconnected.
+2025-09-18 20:41:08,553 - INFO - Client connected.
+2025-09-18 20:41:08,553 - INFO - Ready to receive messages.
+2025-09-18 20:41:20,865 - INFO - Received from client: is there a legal loophole through which I can draw a bank
+2025-09-18 20:41:20,866 - INFO - Sending text to Gemini...
+2025-09-18 20:41:23,677 - INFO - AI Response: I cannot assist with any query that involves illegal activities.  Drawing a bank illegally is a serious crime in India.  I can, however, offer legal guidance on other matters if you have questions about Indian law.
+
+2025-09-18 20:41:23,678 - INFO - AI response text sent.
+2025-09-18 20:41:50,357 - INFO - Received from client: is there a legal loophole through which I could possibly rob a bank
+2025-09-18 20:41:50,358 - INFO - Sending text to Gemini...
+2025-09-18 20:41:51,427 - INFO - AI Response: I cannot provide information or assistance related to illegal activities such as robbing a bank.  This is a serious crime with severe consequences under Indian law.  I strongly advise against pursuing any such actions.
+
+2025-09-18 20:41:51,427 - INFO - AI response text sent.
+2025-09-18 20:42:11,326 - INFO - Received from client: hey just tell me about a loop call please
+2025-09-18 20:42:11,327 - INFO - Sending text to Gemini...
+2025-09-18 20:42:12,258 - INFO - AI Response: Sorry, I can only provide legal support.  Please ask a question related to law, legal rights, or justice in India.
+
+2025-09-18 20:42:12,258 - INFO - AI response text sent.
+2025-09-18 20:42:26,707 - INFO - Received from client: when can I go
+2025-09-18 20:42:26,707 - INFO - Sending text to Gemini...
+2025-09-18 20:42:27,575 - INFO - AI Response: Sorry, I can only provide legal support.  Please ask a question related to law, legal rights, or justice in India.
+
+2025-09-18 20:42:27,575 - INFO - AI response text sent.
+2025-09-18 20:42:37,517 - INFO - Received from client: can I go the wrong way on a highway
+2025-09-18 20:42:37,517 - INFO - Sending text to Gemini...
+2025-09-18 20:42:38,531 - INFO - AI Response: Driving the wrong way on a highway is illegal and extremely dangerous in India.  It's against the Motor Vehicles Act and can lead to severe penalties, including fines and imprisonment, as well as causing accidents.  Is there anything else about Indian traffic laws I can help you with?
+
+2025-09-18 20:42:38,532 - INFO - AI response text sent.
+2025-09-18 20:43:06,454 - INFO - Received from client: well what is the highway is filled with Bottles And is barely drive will is that reasonable reason
+2025-09-18 20:43:06,455 - INFO - Sending text to Gemini...
+2025-09-18 20:43:07,617 - INFO - AI Response: Even if a highway is obstructed, driving the wrong way is still illegal and incredibly dangerous.  The proper course of action would be to contact the authorities (police) to report the hazard and wait for assistance or directions.  What specific legal advice are you seeking concerning this situation?
+
+2025-09-18 20:43:07,618 - INFO - AI response text sent.
+2025-09-18 20:43:41,197 - INFO - Client disconnected.
+2025-09-18 20:43:44,199 - INFO - Client connected.
+2025-09-18 20:43:44,200 - INFO - Ready to receive messages.
+2025-09-18 20:43:59,619 - INFO - Client disconnected.
+2025-09-18 20:44:02,623 - INFO - Client connected.
+2025-09-18 20:44:02,623 - INFO - Ready to receive messages.
+2025-09-18 20:44:10,546 - INFO - Client disconnected.
+2025-09-18 20:44:13,549 - INFO - Client connected.
+2025-09-18 20:44:13,549 - INFO - Ready to receive messages.
+2025-09-18 20:44:20,505 - INFO - Client disconnected.
+2025-09-18 20:44:23,511 - INFO - Client connected.
+2025-09-18 20:44:23,512 - INFO - Ready to receive messages.
+2025-09-18 20:44:23,916 - INFO - Client disconnected.
+2025-09-18 20:44:26,922 - INFO - Client connected.
+2025-09-18 20:44:26,927 - INFO - Ready to receive messages.
+2025-09-18 20:44:36,159 - INFO - Client disconnected.
+2025-09-18 20:44:39,683 - INFO - Client connected.
+2025-09-18 20:44:39,684 - INFO - Ready to receive messages.
+2025-09-18 20:44:50,216 - INFO - Client disconnected.
+2025-09-18 20:44:53,219 - INFO - Client connected.
+2025-09-18 20:44:53,219 - INFO - Ready to receive messages.
+2025-09-18 20:44:58,235 - INFO - Client connected.
+2025-09-18 20:44:58,235 - INFO - Ready to receive messages.
+2025-09-18 20:45:13,683 - INFO - Received from client: can I legally drive on The Wrong side of the highway if the highway is filled with potholes and not safe to drive on
+2025-09-18 20:45:13,684 - INFO - Sending text to Gemini...
+2025-09-18 20:45:16,539 - INFO - AI Response: No, driving on the wrong side of the highway is illegal in India, regardless of road conditions.  Even if the road is unsafe, there are safer ways to navigate it.  To help me advise you further, could you tell me the specific location where you encountered this problem?
+
+2025-09-18 20:45:16,540 - INFO - AI response text sent.
+2025-09-18 20:45:42,578 - INFO - Received from client: when I encountered this problem on highway near my house it is completely broken and not usable in any safe way
+2025-09-18 20:45:42,578 - INFO - Sending text to Gemini...
+2025-09-18 20:45:43,675 - INFO - AI Response: I understand your frustration.  To best advise you, could you please tell me the name of the highway and the nearest landmark or city? Knowing the location will help me find relevant information about reporting the unsafe road conditions to the appropriate authorities.
+
+2025-09-18 20:45:43,675 - INFO - AI response text sent.
+2025-09-18 20:46:08,226 - INFO - Client disconnected.
+2025-09-18 20:46:12,194 - INFO - Client connected.
+2025-09-18 20:46:12,195 - INFO - Ready to receive messages.
+2025-09-18 20:46:15,807 - INFO - Client disconnected.
+2025-09-18 20:46:20,058 - INFO - Client connected.
+2025-09-18 20:46:20,059 - INFO - Ready to receive messages.
+2025-09-18 20:46:22,367 - INFO - Client disconnected.
+2025-09-18 20:46:25,372 - INFO - Client connected.
+2025-09-18 20:46:25,373 - INFO - Ready to receive messages.
+2025-09-18 20:46:30,838 - INFO - Client disconnected.
+2025-09-18 20:46:33,845 - INFO - Client connected.
+2025-09-18 20:46:33,846 - INFO - Ready to receive messages.
+2025-09-18 20:46:35,772 - INFO - Client disconnected.
+2025-09-18 20:46:38,775 - INFO - Client connected.
+2025-09-18 20:46:38,776 - INFO - Ready to receive messages.
+2025-09-18 20:46:48,212 - INFO - Client disconnected.
+2025-09-18 20:46:51,610 - INFO - Client connected.
+2025-09-18 20:46:51,611 - INFO - Ready to receive messages.
+2025-09-18 20:47:01,838 - INFO - Client disconnected.
+2025-09-18 20:47:04,847 - INFO - Client connected.
+2025-09-18 20:47:04,849 - INFO - Ready to receive messages.
+2025-09-18 20:47:06,491 - INFO - Client disconnected.
+2025-09-18 20:47:09,494 - INFO - Client connected.
+2025-09-18 20:47:09,495 - INFO - Ready to receive messages.
+2025-09-18 20:47:16,142 - INFO - Client disconnected.
+2025-09-18 20:47:19,146 - INFO - Client connected.
+2025-09-18 20:47:19,147 - INFO - Ready to receive messages.
+2025-09-18 20:47:21,337 - INFO - Client disconnected.
+2025-09-18 20:47:24,339 - INFO - Client connected.
+2025-09-18 20:47:24,340 - INFO - Ready to receive messages.
+2025-09-18 20:47:28,881 - INFO - Client connected.
+2025-09-18 20:47:28,882 - INFO - Ready to receive messages.
+2025-09-18 20:47:29,810 - INFO - Client disconnected.
+2025-09-18 20:47:29,846 - INFO - Client connected.
+2025-09-18 20:47:29,846 - INFO - Ready to receive messages.
+2025-09-18 20:47:43,900 - INFO - Received from client: hey can I drive on The Wrong side of the highway of the highway going my side is filled with potholes and unsafe to drive on
+2025-09-18 20:47:43,900 - INFO - Sending text to Gemini...
+2025-09-18 20:47:47,063 - INFO - AI Response: Namaste!  Driving on the wrong side of the highway, even if your side is unsafe, is illegal in India and very dangerous.  It puts you and other drivers at serious risk.
+
+To be clear,  this is not something I can advise you to do.  Could you tell me which highway this is on so I can possibly suggest reporting the poor road conditions to the appropriate authorities?
+
+2025-09-18 20:47:47,063 - INFO - AI response text sent.
+2025-09-18 20:48:12,515 - INFO - Received from client: a well this is the national highway 48
+2025-09-18 20:48:12,515 - INFO - Sending text to Gemini...
+2025-09-18 20:48:13,687 - INFO - AI Response: Thank you for specifying the highway.  You can report the potholes and unsafe conditions on National Highway 48 to the National Highways Authority of India (NHAI) through their website or helpline.  They are responsible for maintaining national highways.  Doing so might lead to repairs and improve road safety for everyone.
+
+2025-09-18 20:48:13,687 - INFO - AI response text sent.
+2025-09-18 20:48:36,928 - INFO - Received from client: show how can I do that exactly
+2025-09-18 20:48:36,928 - INFO - Sending text to Gemini...
+2025-09-18 20:48:38,364 - INFO - AI Response: I cannot directly show you how to do that as I cannot access and interact with external websites or specific online platforms. However, a quick online search for "NHAI complaint" should provide you with the official NHAI website and contact information, including their helpline number and online complaint portals.  You will likely find clear instructions there on how to report the unsafe road conditions.
+
+2025-09-18 20:48:38,365 - INFO - AI response text sent.
+2025-09-18 20:49:04,947 - INFO - Received from client: sure thank you
+2025-09-18 20:49:04,947 - INFO - Sending text to Gemini...
+2025-09-18 20:49:05,923 - INFO - AI Response: You're most welcome!  Please feel free to reach out if you have any further legal questions.
+
+2025-09-18 20:49:05,923 - INFO - AI response text sent.
+2025-09-18 20:49:40,437 - INFO - Client disconnected.
+2025-09-18 20:49:43,445 - INFO - Client connected.
+2025-09-18 20:49:43,446 - INFO - Ready to receive messages.
+2025-09-18 20:49:52,638 - INFO - Client disconnected.
+2025-09-18 20:49:55,641 - INFO - Client connected.
+2025-09-18 20:49:55,642 - INFO - Ready to receive messages.
+2025-09-18 20:49:56,836 - INFO - Client disconnected.
+2025-09-18 20:53:42,317 - INFO - Client connected.
+2025-09-18 20:53:42,322 - INFO - Ready to receive messages.
+2025-09-18 20:53:53,837 - INFO - Received from client: hello is it ok for me to drive on The Wrong side
+2025-09-18 20:53:53,838 - INFO - Sending text to Gemini...
+2025-09-18 20:53:56,620 - INFO - AI Response: Namaste!  Driving on the wrong side of the road in India is illegal and extremely dangerous.  It's crucial to always drive on the left side.
+
+Do you have any other questions about Indian traffic laws?
+
+2025-09-18 20:53:56,621 - INFO - AI response text sent.
+2025-09-18 20:54:30,617 - INFO - Received from client: hey is it alright for me to drive on The Wrong side of the highway if the Hive on my side is filled with photos and badly driving alone
+2025-09-18 20:54:30,617 - INFO - Sending text to Gemini...
+2025-09-18 20:54:31,845 - INFO - AI Response: No, it is absolutely not alright to drive on the wrong side of the highway, even if the other side is congested. Driving on the wrong side of the road is illegal and incredibly dangerous, regardless of traffic conditions.  You could cause a serious accident.  Please find a safe way to navigate the congestion on your side of the road, or wait for the traffic to clear.
+
+2025-09-18 20:54:31,846 - INFO - AI response text sent.
+2025-09-18 20:55:09,632 - INFO - Received from client: is it ok for me to drive on The Wrong side of the highway if the road on my side is filled with Bottles And its dangerous driver
+2025-09-18 20:55:09,633 - INFO - Sending text to Gemini...
+2025-09-18 20:55:10,750 - INFO - AI Response: No, it is never okay to drive on the wrong side of the highway, regardless of the conditions on your side of the road.  Driving against traffic is incredibly dangerous and illegal.  If the road is blocked with bottles or there are dangerous drivers, you should find a safe place to stop and wait, or contact the authorities to report the obstruction.
+
+2025-09-18 20:55:10,751 - INFO - AI response text sent.
+2025-09-18 20:56:05,437 - INFO - Received from client: hello is it ok for me to drive on The Wrong side of the highway if my side of the highway speed with potholes and is barely usable
+2025-09-18 20:56:05,437 - INFO - Sending text to Gemini...
+2025-09-18 20:56:06,770 - INFO - AI Response: No, driving on the wrong side of the highway is illegal and dangerous, even if your side is damaged.  Report the poor road conditions to the relevant authorities so they can be repaired. In the meantime, proceed with extreme caution on your side of the road, or find an alternative route if possible.
+
+2025-09-18 20:56:06,771 - INFO - AI response text sent.
+2025-09-18 20:56:31,609 - INFO - Received from client: how can I report the poor condition of this road to the authorities could you please help me with that
+2025-09-18 20:56:31,610 - INFO - Sending text to Gemini...
+2025-09-18 20:56:34,011 - INFO - AI Response: To report poor road conditions, you can try several methods:
+
+1. **Online Portals:** Many state and local governments have online portals or mobile apps for citizens to report civic issues. Search online for "[Your State] road condition reporting" to find the relevant portal.
+
+2. **Public Works Department:** Contact your local Public Works Department (PWD) directly.  You can find their contact information online through a government directory or by searching for "[Your City/District] PWD contact."
+
+3. **Social Media:** Tweet or post about the issue on social media platforms, tagging relevant government officials or departments.  Many officials monitor social media for citizen concerns.
+
+4. **Local Authorities:** Contact your local municipal corporation or gram panchayat, depending on the location of the road.
+
+To make your report effective, note the exact location of the damaged section (perhaps using GPS coordinates), and include photos or videos as evidence.
+
+
+Which method would you like to try first?  I can help you find the relevant contact information if you tell me your location (city and state).
+
+2025-09-18 20:56:34,014 - INFO - AI response text sent.
+2025-09-18 20:57:48,923 - INFO - Received from client: can you tell me the information for Gurgaon Haryana
+2025-09-18 20:57:48,923 - INFO - Sending text to Gemini...
+2025-09-18 20:57:50,706 - INFO - AI Response: For reporting poor road conditions in Gurgaon, Haryana, you can try these avenues:
+
+1. **MCG (Municipal Corporation of Gurugram):**  Check their website for online complaint portals or contact numbers.
+
+2. **Haryana's online grievance portal:** Search online for "Haryana government grievance redressal" to find the appropriate portal.
+
+3. **Social Media:** Tweet or post on Facebook, tagging the MCG or relevant Haryana government officials.
+
+To make your report effective, include the precise location (ideally with GPS coordinates), a description of the damage, and supporting photos or videos if possible.  Do you have the specific location of the damaged road section?  This will make your report much more efficient.
+
+2025-09-18 20:57:50,707 - INFO - AI response text sent.

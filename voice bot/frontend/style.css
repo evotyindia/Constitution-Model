@@ -1,0 +1,95 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.status {
+    font-size: 16px;
+    color: #606770;
+    margin-bottom: 20px;
+    min-height: 24px;
+}
+
+#start-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#start-btn:hover {
+    background-color: #0056b3;
+}
+
+#start-btn:active {
+    transform: scale(0.98);
+}
+
+#start-btn.recording {
+    background-color: #dc3545;
+}
+
+.transcript {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    
+    /* Added for scrollable chat */
+    height: 300px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.chat-message.user {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.chat-message.ai {
+    background-color: #e2e6ea;
+    color: #1c1e21;
+    align-self: flex-start;
+    margin-right: auto;
+}
