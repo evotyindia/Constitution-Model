@@ -145,7 +145,6 @@ body::before{
   margin-bottom: 8px;
   content: "";
 }
-}
 
 /* Ensure chat HTML formatting is preserved */
 .message p {
@@ -163,7 +162,6 @@ body::before{
   margin-bottom: 8px;
   content: "";
 }
-}
 .user {
   background: linear-gradient(120deg, rgba(19,136,8,0.12), rgba(19,136,8,0.06));
   align-self: flex-end;
@@ -177,7 +175,6 @@ body::before{
   border: 1px solid rgba(11,61,145,0.06);
   text-align: left;
 }
-
 /* chat input */
 .chat-form{display:flex;gap:10px;align-items:center;margin-top:6px}
 .chat-form input{flex:1;padding:12px;border-radius:8px;border:1px solid rgba(0,0,0,0.09);font-size:1rem}
